@@ -10,6 +10,8 @@ The project can be used with surveillance cameras in schools, meeting rooms, or 
 ## Some tehnical specifications?
 Diving into tehnical aspects, the app is made in Android Studio using Kotlin. The project also contains Python files for mask detection, face recognition and upload to cloud storage. Firstly, we run the Python scripts. The detector file finds in the camera feed whether there are people who don't wear the mask or not, the recognizer file performs a quick face recognition to find who the people are and the uploader file uploads the captures (with people's names) into Google Firebase. More detailed instructions are made inside the scripts. Secondly, the app retrieves the photos from the cloud storage and shows them in a list, chronologically.
 
+There are a lot of comments in the python scripts which describe how to code works. Read them carefully :D
+
 ## Instructions on how to run
 Firstly, you need to run the Python scripts in this order:
 
